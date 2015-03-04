@@ -1,0 +1,25 @@
+{
+  "name": "igelkott-parse",
+  "description": "A Parse.com connection for Igelkott",
+  "version": "0.1.0",
+  "main": "igelkott-parse.js",
+  "dependencies": {
+    "parse": "*"
+  },
+  "devDependencies": {
+    "chai": "~1.4.2",
+    "mocha": "1.3.x",
+    "igelkott": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stenehall/igelkott-parse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stenehall/igelkott-parse/issues"
+  },
+  "homepage": "https://github.com/stenehall/igelkott-parse"
+}
